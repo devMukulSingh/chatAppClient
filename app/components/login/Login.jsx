@@ -11,7 +11,7 @@ import { setCurrentUser } from '@/redux/userSlice';
 import { useDispatch } from 'react-redux';
 import logo from "../../../public/whatsapp.gif";
 
-const page = () => {
+const Login = () => {
 
   const router = useRouter();
   const dispatch = useDispatch();
@@ -58,4 +58,4 @@ const page = () => {
   )
 }
 
-export default page
+export default Login
