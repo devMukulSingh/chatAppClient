@@ -26,5 +26,3 @@ export const ContextMenu = ( { options, coordinates, setOpenMenu , openMenu } ) 
     </>
   )
 }
-
-options.map()

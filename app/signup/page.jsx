@@ -59,7 +59,6 @@ const Page = () => {
     }
     const onValueChange = (e) => {
         setNewUserData({ ...newUserData, [e.target.name]:e.target.value })
- 
     }
   const handleCreateProfile = async() => {
     const res = await axios.post(ADD_USER_ROUTE,{ ...firebaseUser,...newUserData});
