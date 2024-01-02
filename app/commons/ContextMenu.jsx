@@ -13,7 +13,7 @@ export const ContextMenu = ( { options, coordinates, setOpenMenu , openMenu } ) 
             style={ { top:coordinates.Y, left: coordinates.X }} >
             <ul className='flex gap-1 flex-col'>
                 {
-                    options?.map( ( { name,callback }) => {
+                    options?.map( ( { name,callback }, key={index}) => {
                         return(
                             <li className='text-black' onClick={ (callback) => handleOptionClick(callback) }>
                                 {name}
