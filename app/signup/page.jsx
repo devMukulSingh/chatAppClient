@@ -12,7 +12,7 @@ import { firebaseAuth } from '@/utils/firebase.config';
 import { setUser } from '@/redux/userSlice';
 import { useRouter } from 'next/navigation';
 
-const page = () => {
+const Page = () => {
 
   const userData = {
     userName:'',
@@ -119,4 +119,4 @@ const page = () => {
   )
 }
 
-export default page
+export default Page
